@@ -3,6 +3,29 @@ entries:
   nats-operator:
   - apiVersion: v1
     appVersion: 0.4.4
+    created: "2020-05-16T02:11:54.272455751Z"
+    description: Nats operator creates/configures/manages nats clusters atop Kubernetes
+    digest: d1360c2328d53319da48b201d001f62539e8bba55099d8885e2aa2db69b32c47
+    home: https://github.com/nats-io/nats-operator
+    icon: https://bitnami.com/assets/stacks/nats/img/nats-stack-110x117.png
+    keywords:
+    - addressing
+    - discovery
+    - messaging
+    - nats
+    - operator
+    - pubsub
+    maintainers:
+    - email: richerlariviere@gmail.com
+      name: richerlariviere
+    name: nats-operator
+    sources:
+    - https://github.com/nats-io/nats-operator
+    urls:
+    - https://github.com/geek-cookbook/helm-nats-operator/releases/download/nats-operator-0.1.3/nats-operator-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v1
+    appVersion: 0.4.4
     created: "2020-05-16T01:35:09.272061566Z"
     description: Nats operator creates/configures/manages nats clusters atop Kubernetes
     digest: 589243b3720999fe999f44e17bd31c1364256eda1659cff5e78f40db93284939
