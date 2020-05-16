@@ -68,7 +68,6 @@ updateStrategy: RollingUpdate
 # rollingUpdateMaxSurge: 25%
 # rollingUpdateMaxUnavailable: "25% 
 
-
 ## Configure resource requests and limits
 ## ref: http://kubernetes.io/docs/user-guide/compute-resources/
 ##
@@ -129,13 +128,13 @@ cluster:
 
     ## This is a where you can specify 2 or more users
     users: []
-    #- username: "another-user-1"
-    #  password: "another-password-1"
-    #- username: "another-user-2"
-    #  password: "another-password-2"
-    #  permissions:
-    #    publish: ["hello.*"]
-    #    subscribe: ["hello.world"]
+    # - username: "another-user-1"
+    #   password: "another-password-1"
+    # - username: "another-user-2"
+    #   password: "another-password-2"
+    #   permissions:
+    #     publish: ["hello.*"]
+    #     subscribe: ["hello.world"]
 
     defaultPermissions: {}
       #publish: ["SANDBOX.*"]
